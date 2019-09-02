@@ -48,9 +48,9 @@ function calculateDotProduct(array $vector1, array $vector2, array ...$moreVecto
             throw new LengthException("The array length is not the same");
         }
 
-        // if there are at least two elements for each array
-        if (count($v[$i]) < 2) {
-            throw new LengthException("Every array must contain at least 2 elements");
+        // if there is at least one element for each array
+        if (empty($v[$i])) {
+            throw new LengthException("Each array must contain at least 1 element");
         }
 
         // any element in any array must be numeric
