@@ -15,7 +15,8 @@ function arrayIsNumeric($array) {
 
 /**
  *
- * Calculates the dot product of two or more vectors. The dot product is the result of multiplying the individual numerical values in two or more vectors
+ * Calculates the dot product of two or more vectors. 
+ * The dot product is the result of multiplying the individual numerical values in two or more vectors
  *
  * @param array $vector1 The first vector
  * @param array $vector2 The second vector
