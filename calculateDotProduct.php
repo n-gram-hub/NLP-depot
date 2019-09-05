@@ -24,7 +24,7 @@ function arrayIsNumeric($array) {
  * 
  * @throws ArgumentCountError if user passes less than two vectors
  * @throws TypeError if user doesn't pass an array
- * @throws LengthException if the length is not the same for every array OR if array contains less than 2 elements
+ * @throws LengthException if the length is not the same for every array OR if array contains less than 1 element
  * @throws UnexpectedValueException if element in array is not numeric
  * 
  * @author https://github.com/n-gram-hub
