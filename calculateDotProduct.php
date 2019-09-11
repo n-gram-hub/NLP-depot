@@ -79,7 +79,7 @@ function calculateDotProduct(array $vector1, array $vector2, array ...$moreVecto
 }
 
 try {
-    echo calculateDotProduct([1.01, 2, 3, 0], [1.0101, 2, 3, 0], [1.1212, 2, 3, 0]);
+    echo calculateDotProduct([1.01, 2, 3], [1.0101, 2, 3], [1.1212, 2, 3]);
 } catch (ArgumentCountError $e) {
     echo "ArgumentCountError: " . $e->getMessage();
 } catch (TypeError $e) {
