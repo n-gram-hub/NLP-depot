@@ -1,6 +1,6 @@
 <?php
 
-// https://github.com/n-gram-hub/dotProduct/blob/master/calculateDotProduct.php
+// https://github.com/n-gram-hub/NLP-depot/blob/master/calculateDotProduct.php
 require 'calculateDotProduct.php';
 
 
