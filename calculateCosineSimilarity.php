@@ -30,7 +30,7 @@ function elementIsOutOfRange($vector){
  * @return float
  *
  */
-function calculateCosineSimilarity($vector1, $vector2){
+function calculateCosineSimilarity(array $vector1, array $vector2){
 
     // calculate dot product
     try {
