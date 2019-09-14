@@ -18,7 +18,18 @@ function elementIsOutOfRange($vector){
     return array_product(array_map('range_callback', $vector)) == 0;
 }
 
-
+/**
+ *
+ * Calculates the cosine similarity of two vectors. 
+ *
+ * @param array $vector1 The first vector
+ * @param array $vector2 The second vector
+ * 
+ * @author https://github.com/n-gram-hub
+ * 
+ * @return float
+ *
+ */
 function calculateCosineSimilarity($vector1, $vector2){
 
     // calculate dot product
