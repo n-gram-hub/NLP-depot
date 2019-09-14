@@ -62,4 +62,8 @@ try{
   echo calculateCosineSimilarity([0.1,1.0,0.22,0,1],[0.1,0.1,1,0,1]);
 } catch (RangeException $e){
     echo "Exception: " . $e->getMessage();
+} catch (ArgumentCountError $e) {
+    echo "ArgumentCountError: " . $e->getMessage();
+} catch (TypeError $e) {
+    echo "TypeError: " . $e->getMessage();
 }
