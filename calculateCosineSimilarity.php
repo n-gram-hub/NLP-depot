@@ -60,7 +60,6 @@ function calculateCosineSimilarity($vector1, $vector2){
 
 try{
   echo calculateCosineSimilarity([0.1,1.0,0.22,0,1],[0.1,0.1,1,0,1]);
-}
-catch (RangeException $e){
+} catch (RangeException $e){
     echo "Exception: " . $e->getMessage();
 }
