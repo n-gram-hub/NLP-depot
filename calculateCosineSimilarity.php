@@ -35,8 +35,6 @@ function calculateCosineSimilarity(array $vector1, array $vector2){
     // calculate dot product
     try {
         $dotProduct = calculateDotProduct($vector1, $vector2);
-    } catch (TypeError $e) {
-        echo "TypeError: " . $e->getMessage();
     } catch (LengthException $e) {
         echo "LengthException: " . $e->getMessage();
     } catch (UnexpectedValueException $e) {
