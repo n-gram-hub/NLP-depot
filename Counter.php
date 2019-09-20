@@ -10,7 +10,7 @@ function isAssociativeArray($a)
  * https://docs.python.org/3/library/collections.html#collections.Counter
  * 
  * Example usages below, not much tested, use with care
- * In same cases behavior or API can be different from the original
+ * In some cases behavior or API slightly differ from the original
  * 
  * Useful for basic frequency dictionary usage
  * 
