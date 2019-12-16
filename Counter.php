@@ -21,7 +21,7 @@ trait Utils
  * Example usages below, not much tested, use with care
  * In some cases behavior or API slightly differ from the original
  * 
- * Useful as a starting point for TF-IDF
+ * Useful as a starting point for bag-of-words, TF-IDF, etc.
  * 
  * @author https://github.com/n-gram-hub
  * @version $Revision: 0.1.0 $
