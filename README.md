@@ -1,5 +1,5 @@
 # Counter
-A class useful as a starting point for bag-of-words, TF-IDF, etc.
+A class useful as a starting point for bag-of-words, TF-IDF, etc. Counter is an informal porting of the Python's [collections.Counter class](https://docs.python.org/3/library/collections.html#collections.Counter)
 
 # calculateDotProduct
 PHP function that calculates the [dot product](https://en.wikipedia.org/wiki/Dot_product) of two or more vectors. The dot product is the result of multiplying the individual numerical values in two or more vectors.
