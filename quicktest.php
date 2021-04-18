@@ -4,6 +4,7 @@ require 'Counter.php';
 require 'calculateCosineSimilarity.php';
 
 // sentences were very lazily taken from https://www.machinelearningplus.com/nlp/cosine-similarity/
+// this is just a simple test, corpora should be way bigger
 $trumpDoc = strtolower("Mr. Trump became president after winning the political election. Though he lost the support of some republican friends, Trump is friends with President Putin");
 $electionDoc = strtolower("President Trump says Putin had no political interference is the election outcome. He says it was a witchhunt by political parties. He claimed President Putin is a friend who had nothing to do with the election");
 $putinDoc = strtolower("Post elections, Vladimir Putin became President of Russia. President Putin had served as the Prime Minister earlier in his political career");
