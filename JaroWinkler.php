@@ -1,7 +1,11 @@
 <?php
 
-// this is a brute porting of two Python functions by 'mohit kumar 29' and 'AnkitRai01'
-// cfr. https://www.geeksforgeeks.org/jaro-and-jaro-winkler-similarity/
+// this is a brute porting of two Python functions by:
+//
+// 'mohit kumar 29' (https://auth.geeksforgeeks.org/user/mohit%20kumar%2029/) / Jaro
+// 'AnkitRai01' (https://auth.geeksforgeeks.org/user/ankthon) / JaroWinkler
+//
+// ref. https://www.geeksforgeeks.org/jaro-and-jaro-winkler-similarity/
 
 // warning: untested
 
