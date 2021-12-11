@@ -6,3 +6,6 @@ PHP function that calculates the [dot product](https://en.wikipedia.org/wiki/Dot
 
 # calculateCosineSimilarity
 PHP function that calculates the [cosine similarity](https://en.wikipedia.org/wiki/Cosine_similarity) of two vectors.
+
+# JaroWinkler
+Porting of a couple of functions calculating the [Jaro and JaroWinkler](https://en.wikipedia.org/wiki/Jaro%E2%80%93Winkler_distance) similarity 
